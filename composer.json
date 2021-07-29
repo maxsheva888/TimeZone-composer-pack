@@ -1,0 +1,23 @@
+{
+    "name": "shevchenko/composer-package",
+    "description": "Демонстрационный пакет composer",
+    "authors": [
+        {
+            "name": "Shevchenko Max",
+            "email": "maxsheva888@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },    
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "",
+            "TimeZoneApp\\BaseTimeZone\\" : "src/Classes",
+            "TimeZoneApp\\Interfaces\\" : "src/Interfaces" 
+        }
+    }
+}
